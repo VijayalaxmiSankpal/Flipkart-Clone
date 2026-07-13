@@ -1,0 +1,56 @@
+:root {
+    --main-bg-color: white;
+}
+.main1-container{
+    background-color: var(--main-bg-color);
+    height: 18vh;
+    width: 1620px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 3px black;
+}
+.first-container{
+    background-color: var(--main-bg-color);
+    height: 18vh;
+    width: 1620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18vh;
+    width: 200px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    height: 14vh;
+    width: 150px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-img-box{
+    height: 10vh;
+    width: 100px;
+    background-color:var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img-box img{
+    height: 100px;
+    width: 100px;
+}
+.img-name{
+   text-align: center;
+   margin-top: 8px;
+}
+.main-img-box img:hover{
+    height: 110px;
+    width: 110px;
+}

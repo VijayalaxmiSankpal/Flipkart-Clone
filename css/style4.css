@@ -1,0 +1,86 @@
+:root {
+    --main-bg-color: white;
+}
+.main-container3{
+    display: flex;
+    height: 40vh;
+    width: 1620px;
+    margin: 50px auto;
+}
+.main3-container{
+    flex: 4;
+    height: 40vh;
+    width: 1356px;
+    background-color: var(--main-bg-color);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 3px black;
+}
+.margin{
+    margin-bottom: 13px;
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-top: 1px;
+}
+.three-container{
+    height: 28vh;
+    width: 1356px;
+    background-color: var(--main-bg-color);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+.img-box3{
+    height: 25vh;
+    width: 190px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 0px black;
+    margin:0px 15px ;
+}
+.main-img-box3{
+    height: 18vh;
+    width: 170px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-img-box3 img{
+    height: 150px ;
+    width: 150px ;
+}
+.text{
+    text-align: center;
+    margin: 5px;
+}
+.three{
+    flex: 2;
+ }
+.three img{
+    height: 100%;
+    width: 100%;
+}
+.main-img-box3 img:hover{
+    height: 170px;
+    width: 170px;
+}
+.main3{
+    display: flex;
+    flex: 1;
+    height: 40vh;
+    width: 200px;
+    background-color: var(--main-bg-color);
+    margin: 0px 0px 0px 8px;
+    display: flex;
+    box-shadow: 0px 0px 3px black;
+}
+/* .three img:hover{
+    height: 340px;
+    width: 100%;
+} */
